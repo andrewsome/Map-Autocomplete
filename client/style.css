@@ -1,0 +1,7 @@
+.dropdown {
+  display: block;
+}
+.dropdown-menu {
+  width: 100%;
+  padding: 0;
+}
