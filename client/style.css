@@ -86,3 +86,26 @@ body {
     display: none;
   }
 }
+@media screen and (max-width: 375px) {
+  body {
+    background-size: 500%;
+    background-position-x: 50%;
+    background-position-y: 20%;
+  }
+  .column is-three-quarters {
+    display: none;
+  }
+  .container {
+    margin-top: 80%;
+  }
+  .input {
+    margin-left: 15%;
+    width: 70%;
+  }
+  .container h1 {
+    font-size: 270%;
+  }
+  .container p {
+    display: none;
+  }
+}
