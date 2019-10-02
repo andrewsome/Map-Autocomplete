@@ -30,6 +30,19 @@ body {
   width: 100%;
   padding: 0;
 }
+@media screen and (max-width: 1024px) {
+  body {
+    background-size: 300%;
+    background-position-x: 50%;
+    background-position-y: 10%;
+  }
+  .container {
+    margin-top: 60%;
+  }
+  .container h1 {
+    font-size: 400%;
+  }
+}
 @media screen and (max-width: 992px) {
   body {
     background-size: 200%;
@@ -96,7 +109,7 @@ body {
     display: none;
   }
   .container {
-    margin-top: 80%;
+    margin-top: 100%;
   }
   .input {
     margin-left: 15%;
