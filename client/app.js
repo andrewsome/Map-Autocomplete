@@ -1,14 +1,14 @@
-const autoInput = document.getElementById("autocomplete-input");
+let autoInput = document.getElementById("autocomplete-input");
 let content = document.getElementById("dropdownContent");
 let triggerDrop = document.getElementById("dropdown-menu");
-const control = document.getElementById("control");
+let control = document.getElementById("control");
 
 (function() {
-  autoInput.addEventListener("keyup", keyPressed => {
+  autoInput.addEventListener("keyup", input => {
     // remoteCall(ele.target.value);
     // throttle(remoteCall, 300)(ele.target.value);
     control.classList.add("is-loading");
-    debounce(remoteCall, 300)(keyPressed.target.value);
+    debounce(remoteCall, 300)(input.target.value);
   });
   const remoteCall = async input => {
     content.innerHTML = "";
@@ -55,8 +55,8 @@ const control = document.getElementById("control");
     };
   };
 })();
-function setInputValue(keyPressed) {
-  autoInput.value = ele.innerText;
+function setInputValue(input) {
+  autoInput.value = input.innerText;
   content.innerHTML = "";
   triggerDrop.classList.add("is-hidden");
 }
