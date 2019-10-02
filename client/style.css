@@ -30,19 +30,7 @@ body {
   width: 100%;
   padding: 0;
 }
-@media screen and (max-width: 1024px) {
-  body {
-    background-size: 300%;
-    background-position-x: 50%;
-    background-position-y: 10%;
-  }
-  .container {
-    margin-top: 40%;
-  }
-  .container h1 {
-    font-size: 400%;
-  }
-}
+
 @media screen and (max-width: 992px) {
   body {
     background-size: 200%;
@@ -99,7 +87,7 @@ body {
     display: none;
   }
 }
-@media screen and (max-width: 375px), (max-height: 812px) {
+@media screen and (max-width: 375px) {
   body {
     background-size: 500%;
     background-position-x: 50%;
