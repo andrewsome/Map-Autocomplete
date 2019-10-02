@@ -32,7 +32,7 @@ body {
 }
 @media screen and (max-width: 992px) {
   body {
-    background-size: 270%;
+    background-size: 200%;
     background-position-x: 50%;
     background-position-y: 10%;
   }
@@ -45,9 +45,9 @@ body {
 }
 @media screen and (max-width: 768px) {
   body {
-    background-size: 370%;
+    background-size: 270%;
     background-position-x: 50%;
-    background-position-y: 20%;
+    background-position-y: 30%;
   }
   .column is-three-quarters {
     display: none;
@@ -57,7 +57,7 @@ body {
     width: 70%;
   }
   .container h1 {
-    font-size: 500%;
+    font-size: 350%;
   }
   .container p {
     display: none;
@@ -67,7 +67,7 @@ body {
   body {
     background-size: 370%;
     background-position-x: 50%;
-    background-position-y: 10%;
+    background-position-y: 50%;
   }
   .column is-three-quarters {
     display: none;
@@ -77,7 +77,7 @@ body {
     width: 70%;
   }
   .container h1 {
-    font-size: 450%;
+    font-size: 300%;
   }
   .container p {
     display: none;
