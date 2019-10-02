@@ -53,11 +53,31 @@ body {
     display: none;
   }
   .input {
-    margin-left: 20%;
+    margin-left: 15%;
     width: 70%;
   }
   .container h1 {
     font-size: 500%;
+  }
+  .container p {
+    display: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  body {
+    background-size: 370%;
+    background-position-x: 50%;
+    background-position-y: 10%;
+  }
+  .column is-three-quarters {
+    display: none;
+  }
+  .input {
+    margin-left: 15%;
+    width: 70%;
+  }
+  .container h1 {
+    font-size: 450%;
   }
   .container p {
     display: none;
